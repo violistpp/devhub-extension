@@ -1,0 +1,1 @@
+import{O as e}from"./Options.0b26609a.js";import{s as n}from"./storage.c74628fa.js";const o=document.getElementById("app");function r(){n.get().then(({count:t})=>{new e({target:o,props:{count:t}})})}document.addEventListener("DOMContentLoaded",r);
